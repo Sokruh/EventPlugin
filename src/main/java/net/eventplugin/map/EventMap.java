@@ -1,4 +1,4 @@
-package net.eventplugin;
+package net.eventplugin.map;
 
 import org.bukkit.World;
 

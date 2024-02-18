@@ -2,3 +2,28 @@ name: EventPlugin
 version: '${project.version}'
 main: net.eventplugin.EventPlugin
 api-version: '1.20'
+author: Sokruh
+load: POSTWORLD
+commands:
+  event:
+    aliases: e
+    permission: Event
+    permission-message: You do not have permissions to use this command.
+    description: Event plugins main command.
+  joinevent:
+    description: join event.
+permissions:
+  Event.Admin:
+    default: op
+    description: event admin
+    children:
+      Event.breakBlocks:
+        description: break blocks
+        default: op
+      Event.placeBlocks:
+        default: op
+        description: place blocks
+
+
+
+
