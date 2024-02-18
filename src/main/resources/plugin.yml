@@ -1,0 +1,4 @@
+name: EventPlugin
+version: '${project.version}'
+main: net.eventplugin.EventPlugin
+api-version: '1.20'
